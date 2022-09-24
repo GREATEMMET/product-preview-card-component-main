@@ -28,7 +28,126 @@ html {
     --white: hsl(0, 0%, 100%);
 
     /* font weight    */
-    --f500:500;
-    --f700:700;
-    
+    --f500: 500;
+    --f700: 700;
+
+}
+
+
+body {
+    background-color: var(--cream);
+    height: 100vh;
+}
+
+.desktop-img {
+    display: none;
+}
+
+div {
+    width: 100%;
+}
+
+.container {
+    width: 375px;
+    max-width: 90%;
+    margin: auto;
+    margin-block: 20px;
+    background-color: var(--white);
+    border-radius: 14px;
+    }
+
+.mobile-img>img {
+    width: 100%;
+    border-radius: 14px 14px 0 0;
+}
+
+
+.content-box {
+    width: 80%;
+    margin: auto;
+}
+
+.prehead {
+    font-size: 1.4rem;
+    color: var(--text-light);
+    letter-spacing: 0.5rem;
+    font-family: var(--ff-body);
+    font-weight: var(--f500);
+    margin: 20px 0;
+}
+
+.heading {
+    font-size: 3rem;
+    color: var(--text-dark);
+    font-family: var(--ff-head);
+    font-weight: var(--f700);
+    margin: 10px 0 20px;
+}
+
+.about {
+    font-size: 1.3rem;
+    color: var(--text-light);
+    font-family: var(--ff-body);
+    letter-spacing: .1rem;
+    font-weight: var(--f500);
+    margin: 10px 0 20px;
+    line-height: 2rem;
+}
+
+
+.perfume-price {
+    margin: 15px 0 20px;
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+}
+
+.perfume-price .new-price {
+    color: var(--cyan-dark);
+    font-family: var(--ff-head);
+    font-size: 4rem;
+    display: inline-block;
+}
+
+.perfume-price .old-price {
+    color: var(--text-light);
+    font-family: var(--ff-body);
+    text-decoration: line-through;
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.cart-btn {
+    text-align: center;
+}
+
+.cart-btn a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: var(--cyan-dark);
+    color: var(--white);
+    width: 100%;
+    padding-block: 20px;
+    border-radius: 8px;
+    margin-block: 0 30px;
+    font-family: var(--ff-body);
+    font-weight: var(--f700);
+}
+
+.cart-btn a span{
+    margin-right: 5px;
+}
+
+
+
+
+/* footer reference */
+.attribution {
+    font-size: 11px;
+    text-align: center;
+   }
+
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
 }
