@@ -2,7 +2,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-size: initial;
+    font-size: none;
     box-sizing: border-box;
 }
 
@@ -54,7 +54,7 @@ div {
     margin-block: 20px;
     background-color: var(--white);
     border-radius: 14px;
-    }
+}
 
 .mobile-img>img {
     width: 100%;
@@ -134,8 +134,75 @@ div {
     font-weight: var(--f700);
 }
 
-.cart-btn a span{
+.cart-btn a span {
     margin-right: 5px;
+}
+
+
+/* media query for desktop   */
+@media only screen and (min-width:900px) {
+
+    .two-column {
+        display: flex;
+    }
+
+    .container {
+        width: 800px;
+        height: 600px;
+    }
+
+    .mobile-img {
+        display: none;
+    }
+
+    .desktop-img {
+        display: block;
+        width: 100%;
+
+    }
+
+    .desktop-img img {
+        width: 100%;
+        height: 100%;
+        border-radius: 14px 0 0 14px;
+    }
+
+
+    .prehead {
+        font-size: 1.6rem;
+        margin-top: 5rem;
+        margin-bottom: 3rem;
+    }
+
+    .heading {
+        font-size: 5rem;
+    }
+
+    .about {
+        font-size: 1.7rem;
+    }
+
+    .perfume-price {
+        margin-block: 3rem;
+    }
+
+    .new-price {
+        font-size: 5rem;
+    }
+
+    .perfume-price>.old-price {
+        font-size: 1.5rem;
+        margin-left: 2rem;
+    }
+
+    .cart-btn a {
+        font-size: 1.5rem;
+    }
+
+    .cart-btn a span {
+        margin-right: 1rem;
+    }
+
 }
 
 
@@ -145,7 +212,7 @@ div {
 .attribution {
     font-size: 11px;
     text-align: center;
-   }
+}
 
 
 .attribution a {
