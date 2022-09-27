@@ -36,7 +36,8 @@ html {
 
 body {
     background-color: var(--cream);
-    height: 100% !important;
+    width: 100%;
+    /* height: 100% !important; */
 }
 
 .desktop-img {
