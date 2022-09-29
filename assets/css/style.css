@@ -75,7 +75,7 @@ div {
     display: flex;
     flex-direction: column;
     width: 300px;
-    max-width: 95%;
+    max-width: 90%;
     /* border: 1px solid red; */
     border-radius: 14px;
     background-color: var(--white);
@@ -178,7 +178,6 @@ div {
         flex-direction: row;
         width: 600px;
         height: 450px;
-        max-width: 90%;
     }
 
     .mobile-img {
