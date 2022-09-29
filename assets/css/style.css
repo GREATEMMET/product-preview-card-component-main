@@ -157,6 +157,12 @@ div {
     font-family: var(--ff-body);
     font-size: 1.1rem;
     font-weight: var(--f700);
+    transition: all 100ms ease-in;
+}
+
+.cart-btn a:hover,
+.cart-btn a:focus {
+    background-color: hsl(158, 52%, 28%);
 }
 
 .cart-btn span {
